@@ -60,7 +60,7 @@ button{
     cursor: pointer
 }
 input, textarea {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid gray;
@@ -76,4 +76,17 @@ form {
 #result{
     color: green;
     font-weight: bold;
+}
+.projects-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.projects-card h3 {
+    color: darkblue;
+}
+.projects-card p {
+    font-size: 16px;
 }
