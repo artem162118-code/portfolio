@@ -39,9 +39,9 @@ let projects = [
     status: "В планах",
   }
 ];
-let projectsBlock = document.getElementById("projects");
+let projectBlock = document.getElementById("projects");
 for (let i = 0; i < projects.length; i++) {
-  projectslock.innerHTML += `
+  projectBlock.innerHTML += `
     <div class="project-card">
       <h3>$(projects[i].name</h3>
       <p>$(projects[i].description)</p>
