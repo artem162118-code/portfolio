@@ -43,9 +43,9 @@ let projectBlock = document.getElementById("projects");
 for (let i = 0; i < projects.length; i++) {
   projectBlock.innerHTML += `
     <div class="project-card">
-      <h3>$(projects[i].name</h3>
-      <p>$(projects[i].description)</p>
-      <p>Статус: $(projects[i].status)</p>
+      <h3>${projects[i].name}</h3>
+      <p>${projects[i].description}</p>
+      <p>Статус: ${projects[i].status}</p>
     </div>
   `;
 }
